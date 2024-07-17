@@ -1,21 +1,22 @@
 
 #logo1{
-height: 100px;
+ height: 100px;
 }
 #logo2{
-justify-self: center;
-margin-left: 90px;
-height: 50px;
+ justify-self: center;
+ margin-left: 90px;
+ height: 50px;
 }
 #btn{
-font-size: medium;
-margin-left: 900px;
-width: 280px;
+ font-size: medium;
+ margin-left: 900px;
+ width: 300px;
+ height: 35px;
 }
 #imagenes{
-display: flex;
-width: 100%;
-justify-content: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 .img1{
     margin-left: 16px;
@@ -31,7 +32,6 @@ justify-content: center;
      list-style: none;
      color: rgb(84, 85, 85);
      font-weight: 400;
-     
 }
 
 .nave{
@@ -48,4 +48,57 @@ justify-content: center;
 }
 .gatito1{
     margin-left: 320PX;
+}
+.carru1{
+    width: 600;
+    height: 400;
+}
+div.scroll-container {
+    background-color: rgb(61, 134, 182);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  div.scroll-container img {
+    padding: 10px;
+  }
+.capturas{
+    margin-top: -4%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.columna1{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorNosotras{
+    width: 450px;
+    min-height: 590px;
+    background-color: #007ea8;
+    border-radius: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tituloH1{
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 40px;
+    color: #ffffff;
+}
+.parrafo{
+    color: #ffffff;
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 30px;
+
 }
