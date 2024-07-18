@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 #logo1{
  height: 100px;
 }
@@ -14,9 +16,9 @@
  height: 35px;
 }
 #imagenes{
-  display: flex;
-  width: 100%;
-  justify-content: center;
+ display: flex;
+ justify-content: center;
+ 
 }
 .img1{
     margin-left: 16px;
@@ -54,20 +56,21 @@
     height: 400;
 }
 div.scroll-container {
-    background-color: rgb(61, 134, 182);
+    background-color:  rgb(255, 254, 254);;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
   }
-  div.scroll-container img {
+div.scroll-container img {
     padding: 10px;
-  }
-.capturas{
-    margin-top: -4%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-around;
-    padding: 100px;
+}
+
+.bigCont{
+    display: grid;
+    grid-template: 100% / 50% 50%;
+    width: 100%;
+    height: 700px;
+    margin-top: 70px;
 }
 
 .columna1{
@@ -77,18 +80,19 @@ div.scroll-container {
 
 .contenedorNosotras{
     width: 450px;
-    min-height: 590px;
+    height:  700px;
     background-color: #007ea8;
     border-radius: 20px;
     padding: 0;
     box-sizing: border-box;
+    grid-column: 1;
+    justify-self: center;
 }
 
 .tituloH1{
     font-family: Helvetica, Arial, sans-serif;
     margin-left: 40px;
-    font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 40px;
     color: #ffffff;
 }
@@ -102,3 +106,147 @@ div.scroll-container {
     margin-top: 30px;
 
 }
+.texto1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    color: #ffffff;
+    font-weight: 900px;
+}
+
+.informe{
+    margin-left: 100px;
+    grid-column: 2;
+    display: grid;
+    grid-template: 50% 20% 30% / 1fr ;
+    justify-content: center;
+    width: 450px;
+    height: 700px;
+    background-color: #ebeef1;;
+    border-radius: 20px;
+}
+.texto2{
+ 
+    font-family: 'Inter';
+    display: flex;
+    font-size: 45px;
+    line-height: 50px;
+    justify-content: center;
+    text-align: center;  
+    grid-row: 1;
+}
+.texto3{
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #666;
+}
+.imgCont{
+    display: flex;
+    grid-row: 3;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.poli2{
+    height: 90px;
+ }
+.poli{
+ height: 90px;
+}
+.num{
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.color1{
+border-radius: 20px;
+margin-top: 80px;
+height: 500px;
+margin-left: 90px;
+width: 900px ;
+}
+
+.backgroundF{
+    background-image: url(img/article\ \(2\).jpg);
+}
+.imagenNosotras{
+    margin-top: 81px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.casaMujeresCont {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    border: 1px dashed green;
+}
+
+.casaMujeresDiv{
+   display: grid;
+   grid-template: 45% 55% / 40% 60% ; 
+   background-image: url(img/article\ \(2\).jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 80%; 
+   height: 500px;
+   border-radius: 20px;
+}
+.mujIMG{
+    grid-column: 1;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mujer{
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    align-self: flex-end;
+}
+.textmujer1{
+    grid-row: 2;
+    margin-top: 30px;
+    grid-column: 2;
+ font-size: 30px;
+color: #ffffff;
+font-weight: 200;
+font-family: 'Inter';
+}
+.textmujer2{
+    grid-row: 2;
+    margin-top: 30px;
+    grid-column: 2;
+ font-size: 30px;
+color: #ffffff;
+font-weight: 200;
+font-family: 'Inter';
+}
+.politicacont{
+    margin-top: 100px;
+    background-image: url(img/article\ \(2\).jpg);
+    height: 1000px;
+
+}
+.imgpoli{
+display: flex;
+justify-content: center;
+}
+.imgpoli2{
+height: 380px;
+border-radius: 20px;
+margin-left: 230px;
+}
+imgpoli
